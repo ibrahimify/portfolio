@@ -146,7 +146,7 @@ const experiences = [
     company_name: "Wizz Air",
     icon: wizzair,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
       "Built and maintained a comprehensive database for tracking flight disruptions, enhancing investigative processes to align with EU261 compliance standards.",
       "Coordinated cross-functional collaboration with airports and internal departments.",
