@@ -9,6 +9,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
+import Resume from "../../public/Ibrahim Resume.pdf";
 
 
 export {
@@ -26,4 +27,5 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Footer,
+  Resume,
 };
