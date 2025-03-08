@@ -51,6 +51,7 @@ npm run dev
 The application will be available at `http://localhost:5173`.
 
 ### Project Structure 
+```
 /
 ├── public/             # Static assets
 ├── src/
@@ -67,17 +68,17 @@ The application will be available at `http://localhost:5173`.
 ├── index.html          # HTML template
 ├── package.json        # Project dependencies
 └── README.md           # Project documentation
+```
 
 ## Usage
 Navigate through different sections of the portfolio to explore projects, skills, and contact options. The website is designed to be intuitive and user-friendly, allowing visitors to easily access information.
 
 ## Deployement
-Portfolio is live on **Github Pages** under a custom `.tech` domain.
-Visit: [ibrahimify.tech](https://ibrahimify.tech)
+Portfolio is live on **Github Pages** under a custom `.tech` domain. 
+Visit:
+- [ibrahimify.tech](https://ibrahimify.tech)
 
 ## Contributions
 This is a personal project, but feedback and suggestions are welcome. Feel free to open an issue or reach out.
 
-For any inquiries, contact me via [email@example.com](mailto:muhammadibrahimshoeb@gmail.com).
-
-
+For any inquiries, contact me via [muhammadibrahimshoeb@gmail.com](mailto:muhammadibrahimshoeb@gmail.com).
