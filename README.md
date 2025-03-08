@@ -1,64 +1,83 @@
-# 🎨 My Personal Portfolio
+# Portfolio Website
 
-Welcome to my personal portfolio! This website showcases my projects, skills, and experiences as a Software Engineer, blending interactive design with a seamless user experience.
+## Introduction
+This is the source code for my personal portfolio website, designed to showcase my work, skills, and professional experience. The website features a clean, responsive design with interactive elements to enhance user experience. It serves as a platform to present my projects and connect with potential collaborators or employers.
 
-## 🚀 Tech Stack
+## Features
+- **Modern UI/UX**: Designed with a focus on usability and aesthetics.
+- **Responsive Design**: Optimized for mobile and desktop.
+- **Project Showcase**: Highlights key projects with descriptions and links to repositories.
+- **Contact Form**: Allows visitors to reach out directly.
+- **Performance Optimization**: Fast loading times and optimized assets for better user experience.
 
-- **React.js** – For building dynamic UI components
-- **Three.js** – To create immersive 3D elements
-- **Tailwind CSS** – For styling with efficiency and flexibility
-- **Framer Motion** – To add smooth animations
-- **EmailJS** – For handling contact form submissions
+## Tech Stack
+- **Frontend**: React.js, Three.js, TypeScript, Tailwind CSS
+- **Styling**: Tailwind CSS, Framer Motion 
+- **Forms & Emails**: EmailJS (for contact form functionality)
+- **Build Tools**: Vite
+- **Version Control**: Git, GitHub
 
-## 🌟 Features
+## Installation
+To set up the project locally, follow these steps:
 
-✔️ **Interactive 3D Elements** – Engaging 3D visuals powered by Three.js.
-✔️ **Smooth Animations** – Enhanced user experience with motion effects.
-✔️ **Project Showcase** – Display of my work and contributions.
-✔️ **Contact Form** – Connect with me directly via EmailJS.
-✔️ **Responsive Design** – Optimized for all devices.
-✔️ **Performance Optimization** – Ensuring fast load times.
-
-## 🎯 Purpose
-
-This portfolio serves as a digital representation of my journey as a Software Engineer, demonstrating my technical expertise, creative problem-solving, and passion for building impactful applications.
-
-## 📂 Getting Started
-
-To run this project locally, follow these steps:
-
-### **Prerequisites**
-
-Make sure you have the following installed:
-- [Node.js](https://nodejs.org/)
+### Prerequisites
+Ensure that you have the following installed:
+- [Node.js](https://nodejs.org/en/download/)
 - [Git](https://git-scm.com/)
 
-### **Installation**
+### Clone the Repository
+```sh
+git clone <https://github.com/ibrahimify/portfolio.git>
+cd portfolio
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/yourportfolio.git
-   ```
-2. Navigate into the project folder:
-   ```bash
-   cd yourportfolio
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Run the project:
-   ```bash
-   npm run dev
-   ```
-5. Open [http://localhost:5173](http://localhost:5173) in your browser.
+### Install Dependencies
+```sh
+npm install
+```
 
-## 📧 Contact
+### Set Up Environment Variables
+Create a `.env` file in the root directory and configure the required environment variables:
+```env
+REACT_APP_EMAILJS_USERID=your_emailjs_user_id
+REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
+REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
+```
 
-Feel free to connect with me:
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- GitHub: [Your GitHub](https://github.com/yourusername)
+### Run the Project
+```sh
+npm run dev
+```
+The application will be available at `http://localhost:5173`.
+
+### Project Structure 
+/
+├── public/             # Static assets
+├── src/
+│   ├── assets/         # Images, 3D models, icons
+│   ├── components/     # React components
+│   │   ├── canvas/     # Three.js components
+│   │   └── ...
+│   ├── constants/      # Configuration and content data
+│   ├── styles/         # CSS and style utilities
+│   ├── utils/          # Helper functions
+│   ├── App.jsx         # Main application component
+│   └── main.jsx        # Entry point
+├── .env                # Environment variables
+├── index.html          # HTML template
+├── package.json        # Project dependencies
+└── README.md           # Project documentation
+
+## Usage
+Navigate through different sections of the portfolio to explore projects, skills, and contact options. The website is designed to be intuitive and user-friendly, allowing visitors to easily access information.
+
+## Deployement
+Portfolio is live on **Github Pages** under a custom `.tech` domain.
+Visit: [ibrahimify.tech](https://ibrahimify.tech)
+
+## Contributions
+This is a personal project, but feedback and suggestions are welcome. Feel free to open an issue or reach out.
+
+For any inquiries, contact me via [email@example.com](mailto:muhammadibrahimshoeb@gmail.com).
 
 
-Thank you for visiting my portfolio! 🚀
