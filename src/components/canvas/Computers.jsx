@@ -38,7 +38,7 @@ const ComputersCanvas = () => {
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
-
+    //the flex name should be divided into the funtions
     // Define a callback function to handle changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
