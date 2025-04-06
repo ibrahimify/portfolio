@@ -21,7 +21,7 @@ const Footer = () => {
         },
         {
             name: 'Email',
-            link: 'mailto:muhammadibrahimshoeb@gmail.com',
+            link: 'mailto:ibrahimify.io@gmail.com',
         },
     ];
 
