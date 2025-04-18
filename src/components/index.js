@@ -9,7 +9,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
-import Resume from "../../public/Ibrahim Resume.pdf";
+import Resume from "../../public/Muhammad_Ibrahim_Shoeb_Resume.pdf";
 
 
 export {
