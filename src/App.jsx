@@ -10,7 +10,7 @@ const App = () => {
 {/* Resume Button */}
 <a
   href={Resume}
-  // put the name of the pdf file her  and the resume also in the public folder
+  // put the name of the pdf file here  and the resume also in the public folder
   download='Hire_me_or_you_are_gay.pdf'
   className='rotate-[-90deg] bottom-20 right-[-54px] md:rotate-0 fixed z-20 md:bottom-10 md:right-8 
   uppercase text-[#AAA6C3] bg-transparent bg-opacity-100 rounded-full border border-transparent 
