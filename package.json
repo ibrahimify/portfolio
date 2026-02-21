@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ibrahimify.tech",
+  "homepage": "https://ibrahimify.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

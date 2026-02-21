@@ -74,9 +74,9 @@ The application will be available at `http://localhost:5173`.
 Navigate through different sections of the portfolio to explore projects, skills, and contact options. The website is designed to be intuitive and user-friendly, allowing visitors to easily access information.
 
 ## Deployement
-Portfolio is live on **Github Pages** under a custom `.tech` domain. 
+Portfolio is live on **Github Pages** under a custom `.dev` domain. 
 Visit:
-- [ibrahimify.tech](https://ibrahimify.tech)
+- [ibrahimify.dev](https://ibrahimify.dev)
 
 ## Contributions
 This is a personal project, but feedback and suggestions are welcome. Feel free to open an issue or reach out.
